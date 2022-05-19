@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Square_1 = require("./Square");
+var Rectangle_1 = require("./Rectangle");
+var Manager_1 = require("./Manager");
+var HV = new Square_1.Square(10);
+var HCN = new Rectangle_1.Rectangle(10, 20);
+Manager_1.Manager.add(HV);
+Manager_1.Manager.add(HCN);
+Manager_1.Manager.show();

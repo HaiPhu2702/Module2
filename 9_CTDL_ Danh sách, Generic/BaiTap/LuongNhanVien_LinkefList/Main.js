@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var LinkedListStaff_1 = require("./LinkedListStaff");
+var staffA = new LinkedListStaff_1.LinkedListStaff();
+staffA.lastInsert(1, 100);
+staffA.lastInsert(2, 200);
+staffA.lastInsert(3, 300);
+staffA.lastInsert(4, 400);
+staffA.show();
+console.log("---------------");
+console.log("tổng tiền lương các tháng =   " + staffA.totalMoney());
+staffA.maxMoneyOfMonth();

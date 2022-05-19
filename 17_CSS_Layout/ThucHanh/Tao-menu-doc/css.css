@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+}
+
+#main, #main ul, #main li {
+    padding: 0;
+    margin: 0;
+}
+
+#main li {
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    background-color: rebeccapurple;
+    position: relative;
+    padding: 0 20px;
+    line-height: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+#main li:hover {
+    background-color: red;
+}
+
+#main ul ul {
+    position: absolute;
+    top: 0;
+    left: 140px;
+    visibility: hidden;
+}
+
+#main ul li:hover ul{
+    visibility: visible;
+}
+

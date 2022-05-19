@@ -1,0 +1,48 @@
+
+body{
+    font-family: "Times New Roman";
+}
+
+.main{
+     margin: 8px;
+ }
+h2, h4{
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    margin: 19.92px 0;
+}
+h4{
+    font-size: 16px;
+    margin: 21.28px 0;
+}
+
+.responsive{
+    margin: 0 6px;
+    float: left;
+    width: 24%;
+    border: 1px solid #ccc ;
+}
+
+.responsive:hover{
+    border: 1px solid black;
+}
+
+.desc{
+    text-align: center;
+    padding:15px 0 ;
+}
+
+.imgBeach {
+    width: 100% ;
+    height: auto;
+}
+
+.explain{
+    clear:left ;
+    padding: 6px;
+}
+.explain p{
+    margin: 16px 0  ;
+}

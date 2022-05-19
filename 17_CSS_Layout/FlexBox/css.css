@@ -1,0 +1,29 @@
+
+#header{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+#main{
+    width: 70%;
+    height: 500px;
+    background-color: red;
+    float: left;
+
+}
+#sibar{
+    width: 30%;
+    height: 500px;
+    background-color:   blue;
+    float: left;
+
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: bisque;
+    clear: both;
+
+}
+
+
