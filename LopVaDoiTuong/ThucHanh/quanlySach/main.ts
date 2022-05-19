@@ -5,7 +5,7 @@ import {BookMannager} from "./BookMannager";
 
 let book1 = new Book('B001','Lập trình Java');
 let book2 = new Book('B002','Lập trình PHP');
-let book3 = new Book('B003','Lập trình 3_TongQuan_TypeScript');
+let book3 = new Book('B003','Lập trình TongQuan_TypeScript');
 
 let bookManager = new BookMannager()
 bookManager.add(book1);
